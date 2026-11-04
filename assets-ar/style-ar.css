@@ -1,0 +1,47 @@
+/* Arabic (RTL) edition – extends /assets/style.css, same brand colours */
+body{font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic","Noto Sans Arabic",Arial,system-ui,sans-serif;line-height:1.85;font-size:18px}
+.logo{letter-spacing:0}
+.note,.disc{border-left:0;border-right:4px solid var(--acc)}
+.disc{border:1px solid #f1dc9c}
+th,td{text-align:right}
+.badge{margin:6px 0 0 4px}
+footer a{margin-right:0;margin-left:16px}
+.crumbs{font-size:14px}
+.post img{display:block;margin:16px auto;border-radius:10px}
+.post h2{margin:34px 0 10px;font-size:26px;line-height:1.4}.post h3{margin:24px 0 8px;font-size:21px;line-height:1.45}
+.post p,.post li{margin:0 0 14px}.post ul,.post ol{padding-inline-start:24px;margin:0 0 16px}
+.post blockquote{margin:16px 0;padding:10px 16px;background:var(--card);border-right:4px solid var(--acc);border-radius:6px}
+.post a{overflow-wrap:anywhere}
+.post table{min-width:480px}
+.post pre,.post code{direction:ltr;unicode-bidi:plaintext;text-align:left;font-size:15px}.post pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto}
+.qin{width:100%;padding:12px 14px;border:1px solid var(--bd);border-radius:8px;font-size:17px}
+.sbox input{font-family:inherit}
+.nav{gap:20px}
+@media(max-width:720px){body{font-size:17px}.nav{gap:14px}}
+.nav a{white-space:nowrap}.crumbs a{text-decoration:none}
+.langsw{border:1px solid var(--bd);border-radius:99px;padding:2px 12px;background:var(--card)}
+
+/* ===== Reveal Coupon System ===== */
+.coupon-box{display:flex;flex-wrap:wrap;align-items:center;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin:14px 0;position:relative}
+.coupon-box .coupon-info{flex:1 1 220px;font-size:16px;line-height:1.5}
+.coupon-box .coupon-info strong{color:var(--acc);font-size:17px}
+.coupon-reveal{flex:0 0 auto;background:var(--acc)!important;border:0;cursor:pointer;white-space:nowrap;font-size:15px;padding:10px 18px}
+.coupon-reveal:hover{filter:brightness(1.08)}
+.coupon-reveal:disabled{background:#94a3b8!important;cursor:default}
+.coupon-code{display:flex;align-items:center;gap:10px;width:100%;margin-top:6px;padding-top:10px;border-top:1px dashed var(--bd)}
+.coupon-code[hidden]{display:none!important}
+.coupon-code .code-text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:22px;font-weight:800;letter-spacing:1px;color:var(--fg);background:#fff;border:2px dashed var(--acc);border-radius:8px;padding:8px 16px;direction:ltr;unicode-bidi:plaintext}
+.copy-btn{background:var(--pri);color:#fff;border:0;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer;font-size:14px}
+.copy-btn:hover{filter:brightness(1.08)}
+.copy-btn.copied{background:#16a34a}
+@media(max-width:560px){.coupon-box{flex-direction:column;align-items:stretch}.coupon-reveal{width:100%;text-align:center}.coupon-code{flex-direction:column;align-items:stretch}.coupon-code .code-text{text-align:center}}
+
+/* ===== draft titles (coming soon) + sitemap page + logo ===== */
+.card.draft{position:relative;border-style:dashed;background:transparent}
+.card.draft h3{font-size:16px;line-height:1.55;font-weight:600}
+.soon{display:inline-block;font-size:12px;font-weight:700;color:#0b2545;background:#d9f4f1;border-radius:99px;padding:1px 10px;margin:0 0 8px}
+li .soon{margin:0 6px 0 0}
+.draftsec{padding:22px 0 6px}.draftsec h2{font-size:22px}.cnt{font-size:15px;color:var(--mut);font-weight:400}
+.drafts{margin-top:34px;border-top:1px solid var(--bd);padding-top:8px}.dh{font-size:26px;margin:18px 0 4px}
+.sitemap h2{margin:30px 0 8px;font-size:24px}.sitemap h3{margin:18px 0 6px;font-size:18px;color:var(--mut)}.sitemap ul{padding-inline-start:22px;margin:0 0 10px}.sitemap li{margin:2px 0;line-height:1.7}
+.logo{white-space:nowrap}

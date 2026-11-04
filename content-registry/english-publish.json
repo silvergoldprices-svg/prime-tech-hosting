@@ -1,0 +1,4 @@
+{
+ "_note": "English pages whose article date (published: in the .md) is on/after live_from go live automatically (indexable, in sitemap-en.xml, no banner). Older English pages stay frozen (noindex + banner). Lower the date to unfreeze the 9 existing articles.",
+ "live_from": "2026-11-04"
+}

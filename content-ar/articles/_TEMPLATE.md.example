@@ -1,0 +1,12 @@
+---
+title: عنوان المقال الكامل
+description: وصف قصير للمقال (حوالي 150 حرفًا) يظهر في نتائج البحث.
+slug: hostinger-pricing-egypt          # latin letters, digits, hyphens. No year, no month, no .html
+category: best-hosting                 # best-hosting | company-reviews | comparisons | coupons | tutorials | wordpress-themes | wordpress-plugins | troubleshooting
+published: 2026-11-10                  # real publication date
+status: published                      # only "published" files are built. Use "draft" while writing.
+registry_id: 1                         # id of this title in content-registry/arabic-planned-articles.json (removes its draft card + planned page)
+troubleshooting: false                 # true => also listed under حل المشكلات
+# Images: python3 tools/imgs.py new <slug> "<title>" 5   then paste the printed ![alt](/images/ar/<slug>/<slug>-01.jpg) lines between paragraphs; replace the placeholders with your JPGs (same file names)
+---
+اكتب المقال هنا بصيغة Markdown (## عناوين، قوائم، جداول، روابط). لا تضع عنوان H1 — يُضاف تلقائيًا من title.

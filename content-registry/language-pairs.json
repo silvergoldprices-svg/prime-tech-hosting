@@ -1,0 +1,16 @@
+{
+ "_note": "Genuine ar<->en equivalents only. hreflang + the language switcher use this list; everything else falls back to the other language's homepage. Add a pair only when both pages cover the same topic.",
+ "active": [
+  {
+   "ar": "/",
+   "en": "/en/"
+  }
+ ],
+ "candidates_to_confirm_manually": [
+  {
+   "ar": "/2026/04/hostinger-review.html",
+   "en": "/en/reviews/hostinger/",
+   "why": "same topic, but the English review is a short overview; confirm before activating"
+  }
+ ]
+}

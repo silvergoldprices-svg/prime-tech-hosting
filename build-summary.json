@@ -1,0 +1,30 @@
+{
+ "english_html_files": 166,
+ "sitemap_ar": 53,
+ "sitemap_en": 0,
+ "arabic": {
+  "xml_entries": 39,
+  "posts_live": 35,
+  "posts_draft": 0,
+  "pages_trashed": 4,
+  "deleted_or_other": 0,
+  "legacy_published": 35,
+  "path_exact": 0,
+  "no_path": 0,
+  "duplicate_paths": 0,
+  "empty_content": 0
+ },
+ "arabic_stats": {
+  "h1_demoted": 4,
+  "internal_links_rooted": 191,
+  "affiliate_links_marked": 15,
+  "external_links": 50,
+  "images": 44,
+  "tables": 2
+ },
+ "new_articles_published": 0,
+ "company_profiles": 4,
+ "warnings": [
+  "content-ar/site-ar.json: contact_email is empty -> /contact/ is noindex and excluded from the sitemap until you add it"
+ ]
+}

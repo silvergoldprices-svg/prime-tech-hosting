@@ -1,0 +1,88 @@
+{
+ "problems": [],
+ "html_files_total": 508,
+ "html_files_public": 473,
+ "legacy_mirror_copies": 35,
+ "ar_pages": 307,
+ "en_pages": 166,
+ "legacy": {
+  "live_posts_in_xml": 35,
+  "exact_path_file_exists_with_matching_canonical": 35,
+  "rewrite_rules_in__redirects": 35,
+  "case_collisions": 0
+ },
+ "canonical_self_referencing": 471,
+ "hreflang": {
+  "pages_with_hreflang": 2,
+  "reciprocal_ok": 2
+ },
+ "sitemaps": {
+  "index_entries": [
+   "https://primetechhosting.com/sitemap-ar.xml",
+   "https://primetechhosting.com/sitemap-en.xml"
+  ],
+  "ar_urls": 53,
+  "en_urls": 0,
+  "duplicates": 0,
+  "indexable_pages_missing_from_sitemaps": [],
+  "noindex_pages": 420
+ },
+ "robots": {
+  "text": "User-agent: *\nAllow: /\nDisallow: /_legacy/\n\nSitemap: https://primetechhosting.com/sitemap.xml\n",
+  "references_index": true,
+  "blocks_en": false
+ },
+ "planned_registry": {
+  "entries": 250,
+  "in_sitemap": 0
+ },
+ "internal_links": {
+  "broken_total": 0,
+  "missing_assets": 0,
+  "examples": []
+ },
+ "images": {
+  "img_tags": 332,
+  "without_width_or_height": 0
+ },
+ "jsonld": {
+  "invalid": 0,
+  "types": {
+   "Article": 42,
+   "BreadcrumbList": 468,
+   "AboutPage": 1,
+   "WebPage": 147,
+   "FAQPage": 9,
+   "CollectionPage": 6,
+   "ItemList": 2,
+   "ContactPage": 1,
+   "Organization": 2,
+   "WebSite": 2
+  },
+  "ids_with_conflicting_definitions": []
+ },
+ "arabic_affiliate_links": {
+  "referral_links_in_xml": 15,
+  "referral_links_in_dist": 15
+ },
+ "arabic_images": {
+  "remote_blogger_images": 0,
+  "local_images": 169,
+  "note": "Blogger images were replaced by local JPG placeholders in images-ar/ (see IMAGE-REPLACEMENT-GUIDE.html)"
+ },
+ "local_http_test": {
+  "server": "python http.server on localhost (static file semantics only - not Cloudflare Pages)",
+  "sitemap_urls_tested": 53,
+  "status_counts": {
+   "200": 53
+  },
+  "non_200": [],
+  "unknown_path_status": 404
+ },
+ "mobile_static_checks": {
+  "pages_without_viewport_meta": [],
+  "note": "static markup checks only (viewport meta, tables in scroll containers); no device rendering was performed",
+  "pages_with_unwrapped_tables": []
+ },
+ "duplicate_titles_or_descriptions_among_indexable_pages": {}
+}

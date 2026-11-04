@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "hostinger",
+  "name": "Hostinger",
+  "domain": "hostinger.com",
+  "url": "https://www.hostinger.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "cloud"
+  ],
+  "starting_price": "$2.49/mo (Premium, 48-month term)",
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": true,
+  "free_ssl": true,
+  "last_verified": "2026-11-03",
+  "status": "published",
+  "hands_on_tested": false,
+  "notes": "Renewal price and money-back terms not yet confirmed from an official page.",
+  "sources": [
+   "https://www.hostinger.com/tutorials/how-much-does-website-hosting-cost/"
+  ]
+ },
+ {
+  "slug": "bluehost",
+  "name": "Bluehost",
+  "domain": "bluehost.com",
+  "url": "https://www.bluehost.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": "$3.99/mo (Starter, 36-month term)",
+  "renewal_price": "$9.99/mo (Starter, 36-month term)",
+  "money_back_days": 30,
+  "free_domain": true,
+  "free_ssl": true,
+  "last_verified": "2026-11-03",
+  "status": "published",
+  "hands_on_tested": false,
+  "notes": "",
+  "sources": [
+   "https://www.bluehost.com/pricing",
+   "https://www.bluehost.com/help/article/renewal-price-faq"
+  ]
+ },
+ {
+  "slug": "hostgator",
+  "name": "HostGator",
+  "domain": "hostgator.com",
+  "url": "https://www.hostgator.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ }
+]

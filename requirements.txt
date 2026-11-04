@@ -1,0 +1,7 @@
+beautifulsoup4
+lxml
+markdown
+pyyaml
+pillow
+arabic-reshaper
+python-bidi

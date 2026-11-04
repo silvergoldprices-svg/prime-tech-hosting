@@ -1,0 +1,135 @@
+{
+ "sections": {
+  "hosting-reviews": {
+   "category": "company-reviews",
+   "label": "مراجعات شركات الاستضافة",
+   "description": "مراجعات شاملة للمميزات والعيوب وهل الاستضافة مناسبة للمبتدئين."
+  },
+  "hosting-pricing": {
+   "category": "company-reviews",
+   "label": "الأسعار والتجديد والاسترداد",
+   "description": "تكلفة الباقات والتجديد والإلغاء واسترداد الأموال والدومين المجاني."
+  },
+  "hosting-suitability": {
+   "category": "company-reviews",
+   "label": "هل الاستضافة مناسبة لموقعك؟",
+   "description": "مدى ملاءمة الاستضافة للمتاجر والشركات والمواقع العربية ومواقع الأفلييت والمواقع المتعددة."
+  },
+  "hosting-vs": {
+   "category": "comparisons",
+   "label": "مقارنات شركات الاستضافة",
+   "description": "مقارنات مباشرة بين شركات الاستضافة في الأسعار والأداء."
+  },
+  "hosting-plans-diff": {
+   "category": "comparisons",
+   "label": "الفرق بين باقات الشركة الواحدة",
+   "description": "شرح الفروق بين باقات كل شركة لاختيار الأنسب."
+  },
+  "themes-vs": {
+   "category": "comparisons",
+   "label": "مقارنات قوالب ووردبريس",
+   "description": "مقارنات بين القوالب ومنشئات الصفحات."
+  },
+  "plugins-vs": {
+   "category": "comparisons",
+   "label": "مقارنات إضافات ووردبريس",
+   "description": "مقارنات بين الإضافات المتنافسة في كل مجال."
+  },
+  "tut-start": {
+   "category": "tutorials",
+   "label": "البدء: الشراء ولوحة التحكم والترقية",
+   "description": "شراء الاستضافة وفهم لوحة التحكم وإدارة الباقة."
+  },
+  "tut-files-db": {
+   "category": "tutorials",
+   "label": "الملفات وقواعد البيانات وPHP",
+   "description": "File Manager وFTP وقواعد MySQL وإصدار PHP والنطاقات الفرعية."
+  },
+  "tut-domain-dns": {
+   "category": "tutorials",
+   "label": "الدومين وDNS ونقل النطاقات",
+   "description": "ربط الدومين وتغيير DNS ونقل النطاق وإعداد Cloudflare."
+  },
+  "tut-wp-migrate": {
+   "category": "tutorials",
+   "label": "ووردبريس: التثبيت والنقل والربط",
+   "description": "تثبيت ووردبريس ونقل المواقع من Blogger وغيره وربط Search Console."
+  },
+  "tut-email": {
+   "category": "tutorials",
+   "label": "البريد الإلكتروني وSMTP",
+   "description": "إنشاء البريد الاحترافي وإعداد SMTP."
+  },
+  "tut-speed-security": {
+   "category": "tutorials",
+   "label": "السرعة والأمان والنسخ الاحتياطي",
+   "description": "تسريع الموقع وCDN وSSL والحماية والنسخ الاحتياطي والاستعادة."
+  },
+  "fix-errors": {
+   "category": "troubleshooting",
+   "label": "أخطاء الموقع وقاعدة البيانات",
+   "description": "حل أخطاء 403 و500 واتصال قاعدة البيانات وتحذير Not Secure."
+  },
+  "fix-domain": {
+   "category": "troubleshooting",
+   "label": "مشاكل الدومين وDNS",
+   "description": "سبب عدم ظهور الموقع بعد ربط الدومين أو تغيير DNS."
+  },
+  "fix-email": {
+   "category": "troubleshooting",
+   "label": "مشاكل البريد الإلكتروني",
+   "description": "حل مشكلات إرسال واستقبال البريد."
+  },
+  "fix-speed-space": {
+   "category": "troubleshooting",
+   "label": "البطء وامتلاء المساحة",
+   "description": "حل بطء الموقع وامتلاء مساحة الاستضافة."
+  },
+  "themes-reviews": {
+   "category": "wordpress-themes",
+   "label": "مراجعات قوالب ووردبريس",
+   "description": "مراجعات القوالب الشهيرة: المميزات والعيوب والمناسبة لكل نوع موقع."
+  },
+  "themes-prices": {
+   "category": "wordpress-themes",
+   "label": "أسعار القوالب وتراخيصها",
+   "description": "تكلفة القوالب المدفوعة وطريقة الشراء وهل تستحق."
+  },
+  "themes-setup": {
+   "category": "wordpress-themes",
+   "label": "تثبيت القوالب وأفضلها",
+   "description": "تثبيت القوالب على الاستضافات وأفضل القوالب لكل غرض."
+  },
+  "plugins-speed": {
+   "category": "wordpress-plugins",
+   "label": "إضافات السرعة والكاش وضغط الصور",
+   "description": "WP Rocket وLiteSpeed Cache وFlyingPress وضغط الصور وتحسين قاعدة البيانات."
+  },
+  "plugins-seo": {
+   "category": "wordpress-plugins",
+   "label": "إضافات السيو والبيانات المنظمة",
+   "description": "Rank Math وYoast وSEOPress وSchema Pro وروابط داخلية."
+  },
+  "plugins-builders": {
+   "category": "wordpress-plugins",
+   "label": "منشئات الصفحات وElementor",
+   "description": "Elementor وBricks وBeaver وOxygen والإضافات المكملة."
+  },
+  "plugins-security-backup": {
+   "category": "wordpress-plugins",
+   "label": "الحماية والنسخ الاحتياطي",
+   "description": "Wordfence وSolid Security وUpdraftPlus وBlogVault."
+  },
+  "plugins-forms-mail": {
+   "category": "wordpress-plugins",
+   "label": "النماذج والبريد الإلكتروني",
+   "description": "WPForms وFluent Forms وGravity Forms وSMTP."
+  },
+  "plugins-shop-affiliate": {
+   "category": "wordpress-plugins",
+   "label": "WooCommerce والأفلييت والتحويلات",
+   "description": "إضافات المتاجر وروابط الأفلييت والنوافذ المنبثقة."
+  }
+ },
+ "_note": "Sections group the draft titles inside each category page. Edit labels/descriptions freely; to move a title set its 'section' in arabic-planned-articles.json. Order here = order on the page."
+}

@@ -1,0 +1,338 @@
+[
+ {
+  "slug": "siteground",
+  "name": "SiteGround",
+  "domain": "siteground.com",
+  "url": "https://www.siteground.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "cloud"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "godaddy",
+  "name": "GoDaddy",
+  "domain": "godaddy.com",
+  "url": "https://www.godaddy.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "dreamhost",
+  "name": "DreamHost",
+  "domain": "dreamhost.com",
+  "url": "https://www.dreamhost.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "a2-hosting",
+  "name": "A2 Hosting",
+  "domain": "a2hosting.com",
+  "url": "https://www.a2hosting.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "inmotion-hosting",
+  "name": "InMotion Hosting",
+  "domain": "inmotionhosting.com",
+  "url": "https://www.inmotionhosting.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "namecheap",
+  "name": "Namecheap",
+  "domain": "namecheap.com",
+  "url": "https://www.namecheap.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "cloudways",
+  "name": "Cloudways",
+  "domain": "cloudways.com",
+  "url": "https://www.cloudways.com",
+  "types": [
+   "cloud",
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "kinsta",
+  "name": "Kinsta",
+  "domain": "kinsta.com",
+  "url": "https://www.kinsta.com",
+  "types": [
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "wp-engine",
+  "name": "WP Engine",
+  "domain": "wpengine.com",
+  "url": "https://www.wpengine.com",
+  "types": [
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "liquid-web",
+  "name": "Liquid Web",
+  "domain": "liquidweb.com",
+  "url": "https://www.liquidweb.com",
+  "types": [
+   "vps",
+   "dedicated",
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "hostwinds",
+  "name": "Hostwinds",
+  "domain": "hostwinds.com",
+  "url": "https://www.hostwinds.com",
+  "types": [
+   "shared",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "ionos",
+  "name": "IONOS",
+  "domain": "ionos.com",
+  "url": "https://www.ionos.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps",
+   "dedicated"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "hostpapa",
+  "name": "HostPapa",
+  "domain": "hostpapa.com",
+  "url": "https://www.hostpapa.com",
+  "types": [
+   "shared",
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "greengeeks",
+  "name": "GreenGeeks",
+  "domain": "greengeeks.com",
+  "url": "https://www.greengeeks.com",
+  "types": [
+   "shared",
+   "wordpress",
+   "vps"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "scala-hosting",
+  "name": "Scala Hosting",
+  "domain": "scalahosting.com",
+  "url": "https://www.scalahosting.com",
+  "types": [
+   "shared",
+   "vps",
+   "cloud"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "nexcess",
+  "name": "Nexcess",
+  "domain": "nexcess.net",
+  "url": "https://www.nexcess.net",
+  "types": [
+   "wordpress",
+   "cloud"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ },
+ {
+  "slug": "rocket-net",
+  "name": "Rocket.net",
+  "domain": "rocket.net",
+  "url": "https://www.rocket.net",
+  "types": [
+   "wordpress"
+  ],
+  "starting_price": null,
+  "renewal_price": null,
+  "money_back_days": null,
+  "free_domain": null,
+  "free_ssl": null,
+  "last_verified": null,
+  "status": "draft",
+  "hands_on_tested": false,
+  "notes": ""
+ }
+]

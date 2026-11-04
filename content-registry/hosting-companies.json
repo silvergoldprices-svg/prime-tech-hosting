@@ -1,0 +1,210 @@
+{
+ "_note": "Arabic hosting-company directory. 'article_slug_pattern' links existing Arabic articles to a company by URL; a profile page is generated automatically once at least one Arabic article matches. Do not add prices, ratings, coupon codes or affiliate links here unless verified. 'affiliate_program' is intentionally 'unknown' for every company.",
+ "english_site_providers": [
+  "hostinger",
+  "bluehost",
+  "hostgator"
+ ],
+ "companies": [
+  {
+   "slug": "hostinger",
+   "name_en": "Hostinger",
+   "name_ar": "هوستنجر",
+   "official_domain": "hostinger.com",
+   "official_site": "https://www.hostinger.com",
+   "article_slug_pattern": "hostinger",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "bluehost",
+   "name_en": "Bluehost",
+   "name_ar": "بلوهوست",
+   "official_domain": "bluehost.com",
+   "official_site": "https://www.bluehost.com",
+   "article_slug_pattern": "bluehost",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "hostgator",
+   "name_en": "HostGator",
+   "name_ar": "هوست جيتور",
+   "official_domain": "hostgator.com",
+   "official_site": "https://www.hostgator.com",
+   "article_slug_pattern": "hostgator",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "namecheap",
+   "name_en": "Namecheap",
+   "name_ar": "نيم تشيب",
+   "official_domain": "namecheap.com",
+   "official_site": "https://www.namecheap.com",
+   "article_slug_pattern": "namecheap",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "siteground",
+   "name_en": "SiteGround",
+   "name_ar": "سايت جراوند",
+   "official_domain": "siteground.com",
+   "official_site": "https://www.siteground.com",
+   "article_slug_pattern": "siteground",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "dreamhost",
+   "name_en": "DreamHost",
+   "name_ar": "دريم هوست",
+   "official_domain": "dreamhost.com",
+   "official_site": "https://www.dreamhost.com",
+   "article_slug_pattern": "dreamhost",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "hosting-com",
+   "name_en": "Hosting.com (formerly A2 Hosting)",
+   "name_ar": "Hosting.com (إيه تو هوستنج سابقًا)",
+   "official_domain": "hosting.com",
+   "official_site": "https://hosting.com",
+   "article_slug_pattern": "a2hosting",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "ionos",
+   "name_en": "IONOS",
+   "name_ar": "آيونوس",
+   "official_domain": "ionos.com",
+   "official_site": "https://www.ionos.com",
+   "article_slug_pattern": "ionos",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "inmotion-hosting",
+   "name_en": "InMotion Hosting",
+   "name_ar": "إن موشن هوستنج",
+   "official_domain": "inmotionhosting.com",
+   "official_site": "https://www.inmotionhosting.com",
+   "article_slug_pattern": "inmotion",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "godaddy",
+   "name_en": "GoDaddy",
+   "name_ar": "جودادي",
+   "official_domain": "godaddy.com",
+   "official_site": "https://www.godaddy.com",
+   "article_slug_pattern": "godaddy",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "greengeeks",
+   "name_en": "GreenGeeks",
+   "name_ar": "جرين جيكس",
+   "official_domain": "greengeeks.com",
+   "official_site": "https://www.greengeeks.com",
+   "article_slug_pattern": "greengeeks",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "cloudways",
+   "name_en": "Cloudways",
+   "name_ar": "كلاود وايز",
+   "official_domain": "cloudways.com",
+   "official_site": "https://www.cloudways.com",
+   "article_slug_pattern": "cloudways",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "wp-engine",
+   "name_en": "WP Engine",
+   "name_ar": "دبليو بي إنجن",
+   "official_domain": "wpengine.com",
+   "official_site": "https://wpengine.com",
+   "article_slug_pattern": "wp-?engine",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "kinsta",
+   "name_en": "Kinsta",
+   "name_ar": "كينستا",
+   "official_domain": "kinsta.com",
+   "official_site": "https://kinsta.com",
+   "article_slug_pattern": "kinsta",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "liquid-web",
+   "name_en": "Liquid Web",
+   "name_ar": "ليكويد ويب",
+   "official_domain": "liquidweb.com",
+   "official_site": "https://www.liquidweb.com",
+   "article_slug_pattern": "liquid-?web",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "scalahosting",
+   "name_en": "ScalaHosting",
+   "name_ar": "سكالا هوستنج",
+   "official_domain": "scalahosting.com",
+   "official_site": "https://www.scalahosting.com",
+   "article_slug_pattern": "scala",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "fastcomet",
+   "name_en": "FastComet",
+   "name_ar": "فاست كوميت",
+   "official_domain": "fastcomet.com",
+   "official_site": "https://www.fastcomet.com",
+   "article_slug_pattern": "fastcomet",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "hostarmada",
+   "name_en": "HostArmada",
+   "name_ar": "هوست أرمادا",
+   "official_domain": "hostarmada.com",
+   "official_site": "https://hostarmada.com",
+   "article_slug_pattern": "hostarmada",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "interserver",
+   "name_en": "InterServer",
+   "name_ar": "إنتر سيرفر",
+   "official_domain": "interserver.net",
+   "official_site": "https://www.interserver.net",
+   "article_slug_pattern": "interserver",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  },
+  {
+   "slug": "knownhost",
+   "name_en": "KnownHost",
+   "name_ar": "نون هوست",
+   "official_domain": "knownhost.com",
+   "official_site": "https://www.knownhost.com",
+   "article_slug_pattern": "knownhost",
+   "affiliate_program": "unknown",
+   "review_status": "none"
+  }
+ ]
+}
