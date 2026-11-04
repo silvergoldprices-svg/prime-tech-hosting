@@ -22,6 +22,8 @@ NA = "Check the provider's site for current pricing"
 CATS = []
 
 PAGES = []      # dict(url,title,desc,index,updated,kind)
+EXP_DEFAULT = "Check the provider's site"
+def host_of(u): return re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
 IMAGES = []     # image map rows
 SEARCH = []
 
@@ -100,7 +102,7 @@ def md_to_html(body):
         if re.match(r"\d+\. ", ln):
             items = []
             while i < len(lines) and re.match(r"\d+\. ", lines[i]):
-                items.append(f"<li>{inline(re.sub(r'^\d+\. ', '', lines[i]))}</li>"); i += 1
+                item_txt = re.sub(r"^\d+\. ", "", lines[i]); items.append(f"<li>{inline(item_txt)}</li>"); i += 1
             out.append("<ol>" + "".join(items) + "</ol>"); continue
         if ln.startswith("|"):
             rows = []
@@ -466,7 +468,7 @@ def build():
                 ("Free SSL", yn(h["free_ssl"]) if h["free_ssl"] is not None else "Check the provider's site"),
                 ("Last verified", E(h["last_verified"]) if h["last_verified"] else "Not yet verified")]
         if h.get("sources"):
-            rows.append(("Source", " ".join(f'<a href="{E(u)}" rel="noopener" target="_blank">{E(re.sub(r"^https?://(www\\.)?", "", u).split("/")[0])}</a>' for u in h["sources"])))
+            rows.append(("Source", " ".join(f'<a href="{E(u)}" rel="noopener" target="_blank">{E(host_of(u))}</a>' for u in h["sources"])))
         tbl = '<div class="tw"><table><tbody>' + "".join(f"<tr><th>{a}</th><td>{b}</td></tr>" for a, b in rows) + "</tbody></table></div>"
         soon = "" if (custom_body and is_pub(h)) else '<p class="note">Full review is being written.</p>'
         body = (f'<div class="wrap narrow"><article><h1>{E(h["name"])} Review</h1>'
@@ -532,7 +534,10 @@ def build():
                 cards = f'<div class="grid">{"".join(host_card(H[x]) for x in hosts_l)}</div>'
             kind_label = meta.get("review_basis", "")
             basis = f'<p class="meta">{E(kind_label)}</p>' if kind_label else ""
-            body = (f'<div class="wrap narrow"><article>{htm.replace("</h1>", "</h1>" + f"<p class=meta>Published {meta['published']} · Updated {meta['updated']} · By {E(SITE['author_name'])}</p>" + basis + (DISC if has_aff(htm) or cards else "") + f"<img class=hero-img src=/images/{img} width=1200 height=630 alt=\"{E(meta['image_text'])}\" fetchpriority=high>", 1)}{cards}</article></div>')
+            top_block = (f"<p class=meta>Published {meta['published']} · Updated {meta['updated']} · By {E(SITE['author_name'])}</p>" + basis
+                         + (DISC if has_aff(htm) or cards else "")
+                         + f'<img class=hero-img src=/images/{img} width=1200 height=630 alt="{E(meta["image_text"])}" fetchpriority=high>')
+            body = '<div class="wrap narrow"><article>' + htm.replace("</h1>", "</h1>" + top_block, 1) + cards + "</article></div>"
             sch = [{"@context": "https://schema.org", "@type": "Article", "headline": meta["title"], "description": meta["description"],
                     "image": f"{BASE}/images/{img}", "datePublished": meta["published"], "dateModified": meta["updated"],
                     "author": {"@type": "Organization", "name": SITE["author_name"], "url": BASE + "/author/"},
@@ -582,7 +587,7 @@ def build():
     for c in COUPONS:
         hh = H.get(c["host"])
         if hh:
-            rows += f'<tr><td><a href="/reviews/{hh["slug"]}/">{E(hh["name"])}</a></td><td><code>{E(c.get("code",""))}</code></td><td>{E(c.get("description",""))}</td><td>{E(c.get("expires","Check the provider\'s site"))}</td><td>{E(c.get("last_verified",""))}</td></tr>'
+            rows += f'<tr><td><a href="/reviews/{hh["slug"]}/">{E(hh["name"])}</a></td><td><code>{E(c.get("code",""))}</code></td><td>{E(c.get("description",""))}</td><td>{E(c.get("expires", EXP_DEFAULT))}</td><td>{E(c.get("last_verified",""))}</td></tr>'
     tb = (f'<div class="tw"><table><thead><tr><th>Provider</th><th>Code</th><th>Offer</th><th>Expires</th><th>Last verified</th></tr></thead><tbody>{rows}</tbody></table></div>' if rows
           else "<p>We have no verified coupons to list right now. We only publish offers we have checked.</p>")
     body = f'<div class="wrap narrow"><article><h1>Web Hosting Coupons</h1>{DISC}<p>Offers change often and may expire without notice. Confirm terms on the provider\'s site.</p>{tb}{coupon_links}</article></div>'
